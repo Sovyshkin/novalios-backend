@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_pages",
+  "info": {
+    "singularName": "contact-page",
+    "pluralName": "contact-pages",
+    "displayName": "ContactPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "support_dep_text": {
+      "type": "string"
+    },
+    "support_dep_email": {
+      "type": "email"
+    },
+    "support_dep_phone": {
+      "type": "string"
+    },
+    "support_dep_address": {
+      "type": "string"
+    },
+    "strategy_dep_text": {
+      "type": "string"
+    },
+    "strategy_dep_email": {
+      "type": "email"
+    },
+    "development_dep_text": {
+      "type": "string"
+    },
+    "development_dep_email": {
+      "type": "email"
+    }
+  }
+}

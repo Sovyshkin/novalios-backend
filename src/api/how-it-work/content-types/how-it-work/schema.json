@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "how_it_works",
+  "info": {
+    "singularName": "how-it-work",
+    "pluralName": "how-it-works",
+    "displayName": "How it work"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "number": {
+      "type": "string"
+    }
+  }
+}

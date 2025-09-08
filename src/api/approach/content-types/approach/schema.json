@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "approaches",
+  "info": {
+    "singularName": "approach",
+    "pluralName": "approaches",
+    "displayName": "Approach"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "mappedBy": "approaches"
+    }
+  }
+}

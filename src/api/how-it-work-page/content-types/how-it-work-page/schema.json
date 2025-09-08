@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "how_it_work_pages",
+  "info": {
+    "singularName": "how-it-work-page",
+    "pluralName": "how-it-work-pages",
+    "displayName": "HowItWorkPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
